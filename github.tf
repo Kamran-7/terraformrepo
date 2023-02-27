@@ -9,7 +9,7 @@ terraform {
 
 # Configure the GitHub Provider
 provider "github" {
-    token = "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"
+    token = "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" #token_expired
 }
 resource "github_repository" "kamran" {
   name        = "terraformrepo"
